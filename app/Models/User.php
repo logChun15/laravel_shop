@@ -49,4 +49,8 @@ class User extends Authenticatable implements MustVerifyEmail
         'email_verified' => 'boolean',
     ];
 
+    public function addresses()
+    {
+        return $this->hasMany(UserAddress::class);
+    }
 }
