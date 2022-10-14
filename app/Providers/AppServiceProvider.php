@@ -4,6 +4,8 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\Paginator;
+use Monolog\Logger;
+use Yansongda\Pay\Pay;
 
 class AppServiceProvider extends ServiceProvider
 {
