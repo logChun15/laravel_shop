@@ -14,7 +14,8 @@
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
         "overtrue/laravel-lang": "~3.0",
-        "predis/predis": "^2.0"
+        "predis/predis": "^2.0",
+        "yansongda/pay": "^3.2"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
